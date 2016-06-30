@@ -18,11 +18,9 @@ public class PassengerPersistenceTest extends DataSetPersistenceTest {
 
     @Test
     public void passengerCanBePersisted() throws Exception {
-        Passenger passagier = new Passenger(1L, "socialnumber1", "Peter","Derous",500);
+        Passenger passagier = new Passenger(5L, "socialnumber1", "Peter","Derous",500);
         entityManager().persist(passagier);
         assertNotNull(passagier.getId());
-
-
     }
 
 

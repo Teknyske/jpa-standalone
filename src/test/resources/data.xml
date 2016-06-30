@@ -3,6 +3,7 @@
     <book id="2000" author="Aldous Huxley" title="Brave New World" genre="fiction"/>
     <book id="3000" author="Bram Stoker" title="Dracula" genre="fiction"/>
     <passenger id="1" ssn="socialnumber1" firstName="Peter" lastName="Derous" frequentFlyerMiles="500" />
+    <passenger id="2" ssn="socialnumber2" firstName="Paula" lastName="Ackermans" frequentFlyerMiles="20" />
 
 
 
